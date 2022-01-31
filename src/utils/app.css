@@ -1,0 +1,11 @@
+/* Main File */
+
+@import url('./GlobalReset.css');
+@import url('./margin.css');
+@import url('../themes/palette.css');
+
+.test-1 {
+  height: 100px;
+  border: 2px solid red;
+  background: var(--main-bg-color-test);
+}
