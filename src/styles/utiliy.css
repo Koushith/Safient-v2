@@ -1,0 +1,7 @@
+.mt {
+  margin-top: var(--margin-top);
+}
+
+.mb {
+  margin-top: var(--margin-bottom);
+}
