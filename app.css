@@ -1,0 +1,32 @@
+/* Main File */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('./src/styles/palette.css');
+@import url('./src/styles/utiliy.css');
+@import url('./src/styles/spacing.css');
+@import url('./src/styles/typography.css');
+
+/* Entry point */
+
+/************* Body of project **********/
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1;
+  background-color: #f6f7fb;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.test-3 {
+  height: 100px;
+  border: 2px solid var(--main-bg-color-test);
+  background: var(--black);
+  margin-top: var(--margin-top);
+}
