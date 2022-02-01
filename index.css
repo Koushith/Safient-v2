@@ -4,6 +4,7 @@
 @import url('./src/styles/utiliy.css');
 @import url('./src/styles/spacing.css');
 @import url('./src/styles/typography.css');
+@import url('./src/components/alert/alert.component.css');
 
 /* Entry point */
 
