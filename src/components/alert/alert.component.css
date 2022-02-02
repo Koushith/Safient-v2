@@ -9,7 +9,7 @@
   background-color: #f5f7f9;
   padding: 4rem;
   border: 1px solid gray;
-  border-radius: 0.4em;
+  border-radius: 0.4rem;
   width: fit-content;
 }
 
@@ -18,12 +18,17 @@
 .alert {
   width: 100%;
   color: var(--neutral-white);
-  padding: 1rem;
+  padding: 1.6rem;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1.6rem;
   line-height: 1.43;
-  max-width: 30rem;
+  min-width: 40rem;
   border-radius: 0.4em;
+}
+
+.alert i {
+  font-size: 2.4rem;
+  margin-right: 1.2rem;
 }
 
 /*--------- End of Alert Component Base Style ----------  */
@@ -56,6 +61,35 @@
 }
 
 /* ------------------End of Outlined Variant------------------------- */
+
+/*-------------------- Outlined Variant ------------------ */
+
+.outlined-primary {
+  color: var(--primary-main);
+  border: 1px solid var(--primary-main);
+}
+
+.outlined-secondary {
+  color: var(--secondary-main);
+  border: 1px solid var(--secondary-main);
+}
+
+.outlined-error {
+  color: var(--error-main);
+  border: 1px solid var(--error-main);
+}
+
+.outlined-warning {
+  color: var(--warning-main);
+  border: 1px solid var(--warning-main);
+}
+
+.outlined-success {
+  color: var(--success-main);
+  border: 1px solid var(--success-main);
+}
+
+/* ------------------End of Lite Variant------------------------- */
 
 /*-------------------Filled Variant---------------------------------- */
 .primary {

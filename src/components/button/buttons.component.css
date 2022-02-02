@@ -1,0 +1,112 @@
+/* TODO- Remove this while creating the docs site */
+
+.button-container {
+  background-color: #f5f7f9;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+/* ---------- BASE STYLE -------------*/
+.btn {
+  background: var(--primary-dark);
+  color: var(--neutral-white);
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 100px;
+  text-align: center;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* ---------- END OF BASE STYLE -------------*/
+
+/* ---------SOLID BUTTON------------ */
+
+.btn-primary {
+  background: var(--primary-dark);
+}
+.btn-primary:hover {
+  background: var(--primary-light);
+}
+
+.btn-error {
+  background: var(--error-main);
+}
+.btn-error:hover {
+  background: var(--error-light);
+}
+
+.btn-warning {
+  background: var(--warning-main);
+}
+.btn-warning:hover {
+  background: var(--warning-light);
+}
+
+.btn-success {
+  background: var(--success-main);
+}
+.btn-success:hover {
+  background: var(--success-light);
+}
+
+/* ----------END OF SOLID BUTTON-------- */
+
+/* ---------GHOST BUTTON------------ */
+
+.ghost-primary {
+  color: var(--primary-dark);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--primary-dark);
+}
+.ghost-primary:hover {
+  background-color: var(--primary-dark);
+  color: var(--neutral-white);
+}
+
+.ghost-error {
+  color: var(--error-main);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--error-main);
+}
+.ghost-error:hover {
+  background-color: var(--error-main);
+  color: var(--neutral-white);
+}
+
+.ghost-warning {
+  color: var(--warning-main);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--warning-main);
+}
+.ghost-warning:hover {
+  background-color: var(--warning-main);
+  color: var(--neutral-white);
+}
+
+.ghost-success {
+  color: var(--success-main);
+  background-color: var(--neutral-white);
+  border: 1px solid var(--success-main);
+}
+.ghost-success:hover {
+  background-color: var(--success-main);
+  color: var(--neutral-white);
+}
+
+/* ----------END OF GHOST BUTTON-------- */
+
+/* -------- ICON BUTTON -------- */
+
+.btn i {
+  font-size: 2.6rem;
+  margin-right: 1.2rem;
+}
+
+/* --------END OF ICON BUTTON -------- */
