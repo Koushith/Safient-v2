@@ -1,0 +1,115 @@
+/* Todo -replace all hardcoded values and colors later */
+
+.alert-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #f5f7f9;
+  padding: 4rem;
+  border: 1px solid gray;
+  border-radius: 0.4rem;
+  width: fit-content;
+}
+
+/*--------- Alert Component Base Style ----------  */
+
+.alert {
+  width: 100%;
+  color: var(--neutral-white);
+  padding: 1.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.43;
+  min-width: 40rem;
+  border-radius: 0.4em;
+}
+
+.alert i {
+  font-size: 2.4rem;
+  margin-right: 1.2rem;
+}
+
+/*--------- End of Alert Component Base Style ----------  */
+
+/*-------------------- Outlined Variant ------------------ */
+
+.outlined-primary {
+  color: var(--primary-main);
+  border: 1px solid var(--primary-main);
+}
+
+.outlined-secondary {
+  color: var(--secondary-main);
+  border: 1px solid var(--secondary-main);
+}
+
+.outlined-error {
+  color: var(--error-main);
+  border: 1px solid var(--error-main);
+}
+
+.outlined-warning {
+  color: var(--warning-main);
+  border: 1px solid var(--warning-main);
+}
+
+.outlined-success {
+  color: var(--success-main);
+  border: 1px solid var(--success-main);
+}
+
+/* ------------------End of Outlined Variant------------------------- */
+
+/*-------------------- Outlined Variant ------------------ */
+
+.outlined-primary {
+  color: var(--primary-main);
+  border: 1px solid var(--primary-main);
+}
+
+.outlined-secondary {
+  color: var(--secondary-main);
+  border: 1px solid var(--secondary-main);
+}
+
+.outlined-error {
+  color: var(--error-main);
+  border: 1px solid var(--error-main);
+}
+
+.outlined-warning {
+  color: var(--warning-main);
+  border: 1px solid var(--warning-main);
+}
+
+.outlined-success {
+  color: var(--success-main);
+  border: 1px solid var(--success-main);
+}
+
+/* ------------------End of Lite Variant------------------------- */
+
+/*-------------------Filled Variant---------------------------------- */
+.primary {
+  background-color: var(--primary-main);
+}
+
+.secondary {
+  background-color: var(--secondary-main);
+}
+
+.error {
+  background-color: var(--error-main);
+}
+
+.warning {
+  background-color: var(--warning-main);
+}
+
+.success {
+  background-color: var(--success-main);
+}
+
+/* -----------------End of Filled Variant------------------- */
