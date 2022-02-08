@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="stylesheet" href="/css/sidebar.css">
-    <link rel="stylesheet" href="/css/components.css"> -->
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/sidebar.css" />
+    <link rel="stylesheet" href="../../../docs/docs.css" />
+    <link rel="stylesheet" href="../../../index.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
@@ -17,13 +18,85 @@
   </head>
   <body>
     <div class="container">
-         <div class="doc-content">
+      <nav>
+        <div class="left-nav">
+          <a href="../../index.html">Safient</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="/Get Started/introduction.html">Docs</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <div class="doc-container">
+        <div class="side-bar">
+          <!-- Get Started List Start -->
+          <div>
+            <div class="list-topic">
+              <a href="/Get Started/introduction.html"> Get Started </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/Get Started/introduction.html"> Introduction </a>
+              </li>
+              <li>
+                <a href="/Get Started/Color.html"> Colors </a>
+              </li>
+              <li>
+                <a href="/Get Started/Typography.html"> Typography </a>
+              </li>
+              <li>
+                <a href="/Get Started/Conclusion.html"> Conclusion </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- components List start -->
+          <div>
+            <div class="list-topic">
+              <a href="/components/Avatar/avatar.html">components</a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/components/Avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/components/Alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/components/Badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/components/Button/button.html"> Button </a>
+              </li>
+              <li>
+                <a class="active" href="#"> Card </a>
+              </li>
+              <li>
+                <a href="/components/Image Comp/image.html"> Image </a>
+              </li>
+              <li>
+                <a href="/components/Input/input.html"> Input </a>
+              </li>
+              <li>
+                <a href="/components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/components/Toast/toast.html"> Toast </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="doc-content">
           <div class="content-title">Card</div>
           <div class="content-subtitle">
             Cards are surfaces that display content and actions on a single topic.<br /><br />
             They should be easy to scan for relevant and actionable information. Elements, like text and images, should
             be placed on them in a way that clearly indicates hierarchy.
           </div>
+
+          <div class="divider"></div>
 
           <!-- Simple CARD -->
           <div class="content-head">Simple Card</div>
@@ -35,15 +108,15 @@
 
           <div class="example-div">
             <div class="card">
-              <div class="card-title">Superman</div>
-              <div class="card-text">
-                Faster than a speeding bullet, more powerful than a locomotive… The Man of Steel fights a never-ending
-                battle for truth, justice, and the American way.
-              </div>
+              <h2 class="card-title">be•nev•o•lent</h2>
+              <div class="card-text">well meaning and kindly. "a benevolent smile"</div>
             </div>
           </div>
 
-
+          <div class="example-code">
+            <!-- usage example  -->
+            coming soon
+          </div>
 
           <div class="divider"></div>
 
@@ -57,18 +130,18 @@
 
           <div class="example-div">
             <div class="card">
-              <img
-                class="card-image"
-                src="https://images.unsplash.com/photo-1497124401559-3e75ec2ed794?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
-                alt="card-pic"
-              />
-              <div class="card-title">Batman</div>
+              <img class="card-image" src="https://mui.com/static/images/cards/paella.jpg" alt="card-pic" />
+              <div class="card-title">Shrimp and Chorizo Paella</div>
               <div class="card-text">
-                Batman is the superhero protector of Gotham City, a tortured, brooding vigilante who fights against evil
-                and strikes fear into the hearts of criminals everywhere.
+                This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1
+                cup of frozen peas along with the mussels, if you like
               </div>
             </div>
           </div>
+
+          <div class="example-code">coming soon</div>
+
+          <div class="divider"></div>
 
           <!-- SOCIAL MEDIA CARD -->
           <div class="content-head">Social Media Card</div>
@@ -80,38 +153,19 @@
           <div class="example-div">
             <div class="card">
               <div class="card-head">
-                <img src="/assets/svg/female profile.svg" alt="" class="avatar" />
-                John Doe
+                <img src="../../assets/Images/avatar-image.png" alt="" class="avatar" />
+                Jane Doe
               </div>
               <img
                 class="card-image"
-                src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"
+                src="https://images.unsplash.com/photo-1545239351-ef35f43d514b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
                 alt="card-pic"
               />
-              <div class="card-text">
-                The best thing about a Boolean is that even if you are wrong, you are only off by a bit.
-              </div>
+              <div class="card-text">I don't need an inspirational quote i need coffee. May your coffee be strong</div>
             </div>
           </div>
 
-          <div class="example-code">
-            <pre>
-                        <code class="html">
-                <-- Using card-image, card-title, card-text inside 'card' class -->
-
-                &lt;div class="card"&gt;
-                    &lt;div class="card-head"&gt;
-                        &lt;img src="/assets/svg/female profile.svg" alt="" class="avatar"&gt;
-                        John Doe
-                    &lt;/div&gt;
-                    &lt;img class="card-image" src="https://yourURL.sparrow" alt="card-pic" /&gt;
-                    &lt;div class="card-text"&gt;
-                        Batman is the superhero protector of Gotham City, a tortured, brooding vigilante
-                        who fights against evil and strikes fear into the hearts of criminals everywhere.
-                    &lt;/div&gt;
-                &lt;/div&gt;
-                        </code></pre>
-          </div>
+          <div class="example-code">coming soon</div>
 
           <div class="divider"></div>
 
@@ -127,7 +181,7 @@
             <div class="card ecomm">
               <div class="product-image">
                 <img
-                  src="https://images.unsplash.com/photo-1504274066651-8d31a536b11a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+                  src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=588&q=80"
                   alt="card-pic"
                 />
               </div>
@@ -151,18 +205,57 @@
                   </g>
                 </svg>
               </button>
-              <div class="card-title">Apple</div>
-              <div class="card-text">Airpods 2nd Generation</div>
+              <div class="card-title">Mi Band</div>
+              <div class="card-text">Smartwatches 2nd Gen</div>
               <div class="card-price">
                 <span class="price-now"> Rs.490 </span>
-                <span class="price-before"> Rs.1299 </span>
                 <span class="discount"> (62% OFF) </span>
               </div>
               <button class="btn btn-primary">ADD TO CART</button>
             </div>
           </div>
 
+          <div class="example-code">coming soon</div>
 
+          <div class="divider"></div>
+
+          <footer>
+            <div class="prev-comp">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
+              </svg>
+              <a href="../Button/button.html">Button</a>
+            </div>
+            <div class="next-comp">
+              <a href="../Image Comp/image.html">Image</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
     <script>
