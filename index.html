@@ -10,35 +10,33 @@
     <meta name="description" content="Home page of Safient UI component library" />
     <meta name="keywords" content="HTML, CSS, Component library, UI" />
     <link rel="shortcut icon" href="/Images/Safient-ui-favicon.png" type="image/png" />
+    <link rel="stylesheet" href="./src/styles/navbar.css" />
+    <link rel="stylesheet" href="/src/styles/sidebar.css" />
     <link rel="stylesheet" href="/index.css" />
   </head>
-  <body>
-    <nav aria-label="Top navigation" class="landing-header">
-      <a href="/index.html" class="landing-header-link">
-        <span class="landing-header-title"> Safient UI</span>
-      </a>
-      <a href="https://koushith.in/" target="_blank" class="landing-header-link">
-        <span>Let's Connect</span>
-        <i class="material-icons landing-svg-icon">public</i>
-      </a>
-    </nav>
 
-    <main class="landing-main">
-      <img src="./src/assets/logo/logo.svg" alt="Website Logo" class="landing-main-logo" />
-      <section class="landing-main-body">
-        <p class="landing-main-text">
-          An easy to use and highly customizable UI component library to help you design your apps quickly and
-          efficiently.
-        </p>
-        <div class="landing-button-container">
-          <button class="btn btn-primary">
-            <a href="/docs.html" class="landing-main-link">Get Started</a>
-          </button>
-          <button class="btn btn-ghost">
-            <a href="https://github.com/koushith" target="_blank" class="landing-main-link">GitHub</a>
-          </button>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="../../index.html">SafientUI</a>
         </div>
-      </section>
-    </main>
+        <ul class="right-nav">
+          <li><a href="/Get Started/introduction.html">Docs</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="head">Design your project better and faster.</div>
+        <div class="subhead">
+          SafientUI is a generic UI component library for building ambitious products on the web.
+        </div>
+        <div class="twin-button">
+          <a href="./docs/docs.html" class="btn btn-primary"> Get Started </a>
+          <a href="https://github.com/koushith/" target="_blank" class="btn btn-secondary">GitHub</a>
+        </div>
+      </main>
+    </div>
   </body>
 </html>
