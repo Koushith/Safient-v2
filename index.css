@@ -9,6 +9,7 @@
 @import url('./src/components/image-component/image.component.css');
 @import url('./src/components/input/input.component.css');
 @import url('./src/components/avatar/avatar.styles.css');
+@import url('./src/components/badge/badge.component.css');
 
 /* Entry point */
 

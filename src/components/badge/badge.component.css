@@ -1,0 +1,42 @@
+.badge {
+  position: relative;
+  width: max-content;
+}
+
+.badge > div {
+  bottom: 0.5rem;
+  right: 1rem;
+  position: absolute;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: var(--primary-main);
+}
+
+.badge .online {
+  background-color: var(--success-main);
+}
+
+.badge .offline {
+  background-color: grey;
+}
+
+.badge .away {
+  background-color: var(--error-main);
+}
+
+.badge .number {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  right: 0.8rem;
+  position: absolute;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+  height: 1.8rem;
+  width: 1.8rem;
+  border: none;
+}
