@@ -8,6 +8,7 @@
 @import url('./src/components/card/card.component.css');
 @import url('./src/components/image-component/image.component.css');
 @import url('./src/components/input/input.component.css');
+@import url('./src/components/avatar/avatar.styles.css');
 
 /* Entry point */
 
