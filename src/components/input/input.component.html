@@ -1,0 +1,231 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../../styles/navbar.css" />
+  <link rel="stylesheet" href="../../styles/sidebar.css" />
+  <link rel="stylesheet" href="../../../docs/docs.css" />
+  <link rel="stylesheet" href="../../../index.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+    crossorigin="anonymous"
+  />
+  <title>SafientUI : Input</title>
+</head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="../../index.html">SafientUI</a>
+
+        </div>
+        <ul class="right-nav">
+          <li><a href="/Get Started/introduction.html">Docs</a></li>
+          <li><a href="#">Examples</a></li>
+
+        </ul>
+      </nav>
+
+      <div class="doc-container">
+        <div class="side-bar">
+          <!-- SIDE BAR -->
+          <div>
+            <div class="list-topic">
+              <a href="/Get Started/introduction.html"> Get Started </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/Get Started/introduction.html"> Introduction </a>
+              </li>
+              <li>
+                <a href="/Get Started/Color.html"> Colors </a>
+              </li>
+              <li>
+                <a href="/Get Started/Typography.html"> Typography </a>
+              </li>
+              <li>
+                <a href="/Get Started/Conclusion.html"> Conclusion </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- SIDEBAR COMPONENT LIST -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/Avatar/avatar.html">Components</a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/Components/Avatar/avatar.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="/Components/Alert/alert.html"> Alert </a>
+              </li>
+              <li>
+                <a href="/Components/Badge/badge.html"> Badge </a>
+              </li>
+              <li>
+                <a href="/Components/Button/button.html"> Button </a>
+              </li>
+              <li>
+                <a href="/Components/Card/card.html"> Card </a>
+              </li>
+              <li>
+                <a href="/Components/Image Comp/image.html"> Image </a>
+              </li>
+              <li>
+                <a class="active" href="#"> Input </a>
+              </li>
+              <li>
+                <a href="/Components/list/list.html"> List </a>
+              </li>
+              <li>
+                <a href="/Components/Toast/toast.html"> Toast </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="doc-content">
+          <div class="content-title">Inputs</div>
+          <div class="content-subtitle">
+            Inputs are necessary for user interaction with the website. Inputs are used to take information from the
+            user, and then save the data to the server, accordingly.
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- Simple Input -->
+          <div class="content-head">Inputs</div>
+
+          <div class="content-subtitle">
+           Input with LAbel
+          </div>
+
+          <div class="example-div alert-box">
+            <!-- INPUT FIELD -->
+            <div class="input-group">
+              <label>Username *</label>
+              <input type="text" />
+            </div>
+
+            <div class="input-group ">
+              <label>Password *</label>
+              <input type="text" />
+            </div>
+
+            <div class="input-group err">
+              <label>Re-Enter Password *</label>
+              <input type="text" />
+              <div class="error-message">Password didnot match.Please Try again.</div>
+            </div>
+          </div>
+
+          <div class="example-code">
+           coming soon
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- RADIO -->
+          <div class="content-head">Radio</div>
+
+          <div class="content-subtitle">Radio buttons allow the user to select one option from a set.</div>
+
+          <div class="example-div">
+            <div class="radio">
+              <label for="radio-1">
+                <input id="radio-1" name="radio" type="radio" checked />
+                Checked
+              </label>
+            </div>
+
+            <div class="radio">
+              <label for="radio-2">
+                <input id="radio-2" name="radio" type="radio" />
+                Unchecked
+              </label>
+            </div>
+
+            <div class="radio disabled">
+              <label for="radio-3">
+                <input id="radio-3" name="radio" type="radio" disabled />
+                Disabled
+              </label>
+            </div>
+          </div>
+
+          <div class="example-code">
+           coming soon
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- CheckBox -->
+          <div class="content-head">Checkbox</div>
+
+          <div class="content-subtitle">
+            Checkboxes allow the user to select one or more items from a set. Checkboxes can be used to turn an option
+            on or off.
+            <br />
+            If you have multiple options appearing in a list, you can preserve space by using checkboxes instead of
+            on/off switches. If you have a single option, avoid using a checkbox and use an on/off switch instead.
+          </div>
+
+          <div class="example-div">
+            <div class="checkbox">
+              <label for="checkbox-1">
+                <input id="checkbox-1" name="checkbox" type="checkbox" checked />
+                Checked
+              </label>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <footer>
+            <div class="prev-comp">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
+              </svg>
+              <a href="../Image Comp/image.html">Image</a>
+            </div>
+            <div class="next-comp">
+              <a href="../list/list.html">List</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
