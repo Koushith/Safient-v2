@@ -1,1 +1,51 @@
-/* WIP */
+/* -----SCALES------ */
+/*
+sm- 2px
+md- 4px
+lg- 6px
+xl-8px
+2xl- 10px
+*/
+
+/* -------PADDING-------- */
+/* p, pt, pb, px, py */
+
+.p-sm {
+  padding: 0.2rem;
+}
+
+.p-md {
+  padding: 0.2rem;
+}
+.p-lg {
+  padding: 0.2rem;
+}
+.p-xl {
+  padding: 0.2rem;
+}
+.p-2xl {
+  padding: 0.2rem;
+}
+
+/* PADDING-TOP */
+
+.pt-sm {
+  padding-top: 0.2rem;
+}
+
+.pt-md {
+  padding-top: 0.2rem;
+}
+.pt-lg {
+  padding-top: 0.2rem;
+}
+.pt-xl {
+  padding-top: 0.2rem;
+}
+.pt-2x {
+  padding-top: 0.2rem;
+}
+
+/* ------PADDING BOTTOM-------- */
+
+/* -------MARGIN--------- */
