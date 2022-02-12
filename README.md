@@ -13,3 +13,5 @@ Safient is the combination of 2 words: Safe and Convenient as we believe in prov
 - Cards
 - Responsive Images
 - Input
+- Typography
+- Spacing Utils
