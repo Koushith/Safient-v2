@@ -4,30 +4,147 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/sidebar.css" />
+    <link rel="stylesheet" href="../../../docs/getting-started.css" />
+    <link rel="stylesheet" href="../../../index.css" />
     <link rel="stylesheet" href="../../../index.css" />
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
-    <title>Alert Component</title>
+    <title>SafientUI : Alert Component</title>
   </head>
   <body>
-    <!-- Outlined Variant -->
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="../../index.html">SafientUI</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="/Get Started/introduction.html">Docs</a></li>
+          <li><a href="#">Contribution</a></li>
+        </ul>
+      </nav>
 
-    <div class="alert-container" style="margin-top: 10px; margin-left: 20px">
-      <div class="alert primary">This is a Primary Alert Component</div>
-      <div class="alert secondary">This is a Secondary Alert Component</div>
-      <div class="alert error">This is a Error Alert Component</div>
-      <div class="alert warning">This is a warning Alert Component</div>
-      <div class="alert success">This is a success Alert Component</div>
+      <div class="doc-container">
+        <div class="side-bar">
+          <!-- Get Started List Start -->
+          <div>
+            <div class="list-topic">
+              <a href="../../../docs/getting-started.html"> Get Started </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/Get Started/introduction.html"> Introduction </a>
+              </li>
+              <li>
+                <a href="./Color.html"> Colors </a>
+              </li>
+              <li>
+                <a href="../typography/typography.component.html"> Typography </a>
+              </li>
+              <li>
+                <a href="../../../docs/contribution.html"> Conclusion </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Components List start -->
+          <div>
+            <div class="list-topic">
+              <a href="/Components/Avatar/avatar.html">Components</a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="#"> Avatar </a>
+              </li>
+              <li>
+                <a class="active" href="../alert/alert.component.html"> Alert </a>
+              </li>
+              <li>
+                <a href="../badge/badge.component.html"> Badge </a>
+              </li>
+              <li>
+                <a href="../button/buttons.component.html"> Button </a>
+              </li>
+              <li>
+                <a href="../card/card.component.html"> Card </a>
+              </li>
+              <li>
+                <a href="../image-component/image.component.html"> Image </a>
+              </li>
+              <li>
+                <a href="../image-component/image.component.html"> Input </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="doc-content">
+          <div class="content-title">Simple Alert</div>
+          <div class="content-subtitle">
+            Simple Alerts can be created using alert class, followed by the variant name.
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="example-div">
+            <div class="alert primary">This is a Primary Alert Component</div>
+            <div class="alert secondary">This is a Secondary Alert Component</div>
+            <div class="alert error">This is a Error Alert Component</div>
+            <div class="alert warning">This is a warning Alert Component</div>
+            <div class="alert success">This is a success Alert Component</div>
+          </div>
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522alert%2520primary%2522%253EThis%2520is%2520a%2520Primary%2520Alert%2520Component%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520secondary%2522%253EThis%2520is%2520a%2520Secondary%2520Alert%2520Component%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520error%2522%253EThis%2520is%2520a%2520Error%2520Alert%2520Component%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520warning%2522%253EThis%2520is%2520a%2520warning%2520Alert%2520Component%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522alert%2520success%2522%253EThis%2520is%2520a%2520success%2520Alert%2520Component%253C%252Fdiv%253E%250A"
+              style="width: 724px; height: 282px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="content-title">Outline Alert</div>
+          <div class="content-subtitle">
+            Outline alerts are created by using alert class, followed by outline-variant.
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="example-div">
+            <div class="alert outlined-primary">This is a Primary Alert Component</div>
+            <div class="alert outlined-secondary">This is a Secondary Alert Component</div>
+            <div class="alert outlined-error">This is a Error Alert Component</div>
+            <div class="alert outlined-warning">This is a warning Alert Component</div>
+            <div class="alert outlined-success">This is a success Alert Component</div>
+          </div>
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522alert%2520outlined-primary%2522%253EThis%2520is%2520a%2520Primary%2520Alert%2520Component%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outlined-secondary%2522%253EThis%2520is%2520a%2520Secondary%2520Alert%2520Component%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outlined-error%2522%253EThis%2520is%2520a%2520Error%2520Alert%2520Component%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outlined-warning%2522%253EThis%2520is%2520a%2520warning%2520Alert%2520Component%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert%2520outlined-success%2522%253EThis%2520is%2520a%2520success%2520Alert%2520Component%253C%252Fdiv%253E"
+              style="width: 850px; height: 263px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="divider"></div>
+
+          <footer>
+            <div class="prev-comp">
+              <a href="../avatar/avatar.component.html">Avatar</a>
+            </div>
+            <div class="next-comp">
+              <a href="../badge/badge.component.html">Badge</a>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
 
-    <!-- Filled Variant -->
-
-    <div class="alert-container" style="margin-top: 10px; margin-left: 20px">
-      <div class="alert outlined-primary">This is a Primary Alert Component</div>
-      <div class="alert outlined-secondary">This is a Secondary Alert Component</div>
-      <div class="alert outlined-error">This is a Error Alert Component</div>
-      <div class="alert outlined-warning">This is a warning Alert Component</div>
-      <div class="alert outlined-success">This is a success Alert Component</div>
-    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
