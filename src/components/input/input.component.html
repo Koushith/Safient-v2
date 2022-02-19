@@ -1,39 +1,40 @@
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="../../styles/navbar.css" />
-  <link rel="stylesheet" href="../../styles/sidebar.css" />
-  <link rel="stylesheet" href="../../../docs/docs.css" />
-  <link rel="stylesheet" href="../../../index.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
-    integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
-    crossorigin="anonymous"
-  />
-  <title>SafientUI : Input</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/sidebar.css" />
+    <link rel="stylesheet" href="../../../docs/getting-started.css" />
+    <link rel="stylesheet" href="../../../index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+      integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+      crossorigin="anonymous"
+    />
+    <title>Safient : Input</title>
+  </head>
   <body>
     <div class="container">
       <nav>
         <div class="left-nav">
-          <a href="../../index.html">SafientUI</a>
-
+          <a href="../../index.html">Safient</a>
         </div>
         <ul class="right-nav">
           <li><a href="/Get Started/introduction.html">Docs</a></li>
           <li><a href="#">Examples</a></li>
-
         </ul>
       </nav>
 
       <div class="doc-container">
         <div class="side-bar">
-          <!-- SIDE BAR -->
+          <!-- Get Started List Start -->
           <div>
             <div class="list-topic">
-              <a href="/Get Started/introduction.html"> Get Started </a>
+              <a href="../../../docs/getting-started.html"> Get Started </a>
             </div>
             <ul class="list-subtopic">
               <li>
@@ -51,38 +52,32 @@
             </ul>
           </div>
 
-          <!-- SIDEBAR COMPONENT LIST -->
+          <!-- Components List start -->
           <div>
             <div class="list-topic">
-              <a href="/Components/Avatar/avatar.html">Components</a>
+              <a href="../button/buttons.component.html">Components</a>
             </div>
             <ul class="list-subtopic">
               <li>
-                <a href="/Components/Avatar/avatar.html"> Avatar </a>
+                <a href="../avatar/avatar.component.html"> Avatar </a>
               </li>
               <li>
-                <a href="/Components/Alert/alert.html"> Alert </a>
+                <a href="../alert/alert.component.html"> Alert </a>
               </li>
               <li>
-                <a href="/Components/Badge/badge.html"> Badge </a>
+                <a href="../badge/badge.component.html"> Badge </a>
               </li>
               <li>
-                <a href="/Components/Button/button.html"> Button </a>
+                <a href="../button/buttons.component.html"> Button </a>
               </li>
               <li>
-                <a href="/Components/Card/card.html"> Card </a>
+                <a href="../card/card.component.html"> Card </a>
               </li>
               <li>
-                <a href="/Components/Image Comp/image.html"> Image </a>
+                <a href="../image-component/image.component.html"> Image </a>
               </li>
               <li>
-                <a class="active" href="#"> Input </a>
-              </li>
-              <li>
-                <a href="/Components/list/list.html"> List </a>
-              </li>
-              <li>
-                <a href="/Components/Toast/toast.html"> Toast </a>
+                <a class="active" href="../input/input.component.html"> Input </a>
               </li>
             </ul>
           </div>
@@ -100,9 +95,7 @@
           <!-- Simple Input -->
           <div class="content-head">Inputs</div>
 
-          <div class="content-subtitle">
-           Input with LAbel
-          </div>
+          <div class="content-subtitle">Input with LAbel</div>
 
           <div class="example-div alert-box">
             <!-- INPUT FIELD -->
@@ -111,7 +104,7 @@
               <input type="text" />
             </div>
 
-            <div class="input-group ">
+            <div class="input-group">
               <label>Password *</label>
               <input type="text" />
             </div>
@@ -124,11 +117,15 @@
           </div>
 
           <div class="example-code">
-           coming soon
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%2520%253Clabel%253EUsername%2520*%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522input-group%2522%253E%250A%253Clabel%253EPassword%2520*%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%2520%2520%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522input-group%2520err%2522%253E%250A%2520%253Clabel%253ERe-Enter%2520Password%2520*%253C%252Flabel%253E%250A%2520%253Cinput%2520type%253D%2522text%2522%2520%252F%253E%250A%253Cdiv%2520class%253D%2522error-message%2522%253EPassword%2520didnot%2520match.Please%2520Try%2520again.%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 757px; height: 465px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
 
           <div class="divider"></div>
-
           <!-- RADIO -->
           <div class="content-head">Radio</div>
 
@@ -158,7 +155,12 @@
           </div>
 
           <div class="example-code">
-           coming soon
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522radio%2522%253E%250A%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2520%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%2520%252F%253E%250A%2520Checked%250A%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+              style="width: 630px; height: 298px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
           </div>
 
           <div class="divider"></div>
@@ -182,6 +184,14 @@
               </label>
             </div>
           </div>
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522radio%2522%253E%250A%253Clabel%2520for%253D%2522radio-1%2522%253E%250A%2520%253Cinput%2520id%253D%2522radio-1%2522%2520name%253D%2522radio%2522%2520type%253D%2522radio%2522%2520checked%2520%252F%253E%250A%2520Checked%250A%253C%252Flabel%253E%250A%253C%252Fdiv%253E"
+              style="width: 630px; height: 298px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
 
           <div class="divider"></div>
 
@@ -200,10 +210,10 @@
               >
                 <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
               </svg>
-              <a href="../Image Comp/image.html">Image</a>
+              <a href="../card/card.component.html">Card</a>
             </div>
             <div class="next-comp">
-              <a href="../list/list.html">List</a>
+              <a href="../../../docs/getting-started.html">Getting-started</a>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"

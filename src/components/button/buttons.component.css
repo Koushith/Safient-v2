@@ -11,6 +11,9 @@
 
 /* ---------- BASE STYLE -------------*/
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: var(--primary-dark);
   color: var(--neutral-white);
   font-size: 18px;
@@ -61,43 +64,43 @@
 /* ---------GHOST BUTTON------------ */
 
 .ghost-primary {
-  color: var(--primary-dark);
+  color: var(--primary-dark) !important;
   background-color: var(--neutral-white);
-  border: 1px solid var(--primary-dark);
+  border: 1px solid var(--primary-dark) !important;
 }
 .ghost-primary:hover {
   background-color: var(--primary-dark);
-  color: var(--neutral-white);
+  color: var(--neutral-white) !important;
 }
 
 .ghost-error {
-  color: var(--error-main);
+  color: var(--error-main) !important;
   background-color: var(--neutral-white);
-  border: 1px solid var(--error-main);
+  border: 1px solid var(--error-main) !important;
 }
 .ghost-error:hover {
   background-color: var(--error-main);
-  color: var(--neutral-white);
+  color: var(--neutral-white) !important;
 }
 
 .ghost-warning {
-  color: var(--warning-main);
+  color: var(--warning-main) !important;
   background-color: var(--neutral-white);
-  border: 1px solid var(--warning-main);
+  border: 1px solid var(--warning-main) !important;
 }
 .ghost-warning:hover {
-  background-color: var(--warning-main);
+  background-color: var(--warning-main) !important;
   color: var(--neutral-white);
 }
 
 .ghost-success {
-  color: var(--success-main);
+  color: var(--success-main) !important;
   background-color: var(--neutral-white);
-  border: 1px solid var(--success-main);
+  border: 1px solid var(--success-main) !important;
 }
 .ghost-success:hover {
   background-color: var(--success-main);
-  color: var(--neutral-white);
+  color: var(--neutral-white) !important;
 }
 
 /* ----------END OF GHOST BUTTON-------- */
@@ -107,6 +110,8 @@
 .btn i {
   font-size: 2.6rem;
   margin-right: 1.2rem;
+  display: flex;
+  align-items: center;
 }
 
 /* --------END OF ICON BUTTON -------- */
