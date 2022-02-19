@@ -4,32 +4,232 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/navbar.css" />
+    <link rel="stylesheet" href="../../styles/sidebar.css" />
+    <link rel="stylesheet" href="../../../docs/getting-started.css" />
     <link rel="stylesheet" href="../../../index.css" />
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/1465705b72.js" crossorigin="anonymous"></script>
-    <title>Buttons</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+      integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+      crossorigin="anonymous"
+    />
+    <title>Safient : Button</title>
   </head>
   <body>
-    <!-- SOLID BUTTON -->
-    <div class="button-container">
-      <button class="btn btn-primary">Primary</button>
-      <button class="btn btn-error">Error</button>
-      <button class="btn btn-warning">Warning</button>
-      <button class="btn btn-success">Success</button>
+    <div class="container">
+      <nav>
+        <div class="left-nav">
+          <a href="../../index.html">Safient</a>
+        </div>
+        <ul class="right-nav">
+          <li><a href="/Get Started/introduction.html">Docs</a></li>
+          <li><a href="#">Examples</a></li>
+        </ul>
+      </nav>
+
+      <div class="doc-container">
+        <div class="side-bar">
+          <!-- Get Started List Start -->
+          <div>
+            <div class="list-topic">
+              <a href="../../../docs/getting-started.html"> Get Started </a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="/Get Started/introduction.html"> Introduction </a>
+              </li>
+              <li>
+                <a href="/Get Started/Color.html"> Colors </a>
+              </li>
+              <li>
+                <a href="/Get Started/Typography.html"> Typography </a>
+              </li>
+              <li>
+                <a href="/Get Started/Conclusion.html"> Conclusion </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Components List start -->
+          <div>
+            <div class="list-topic">
+              <a href="../button/buttons.component.html">Components</a>
+            </div>
+            <ul class="list-subtopic">
+              <li>
+                <a href="../avatar/avatar.component.html"> Avatar </a>
+              </li>
+              <li>
+                <a href="../alert/alert.component.html"> Alert </a>
+              </li>
+              <li>
+                <a href="../badge/badge.component.html"> Badge </a>
+              </li>
+              <li>
+                <a class="active" href="../button/buttons.component.html"> Button </a>
+              </li>
+              <li>
+                <a href="../card/card.component.html"> Card </a>
+              </li>
+              <li>
+                <a href="../image-component/image.component.html"> Image </a>
+              </li>
+              <li>
+                <a href="../input/input.component.html"> Input </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="doc-content">
+          <div class="content-title">Button</div>
+          <div class="content-subtitle">Buttons allow users to take actions, and make choices, with a single tap.</div>
+
+          <div class="divider"></div>
+
+          <!-- Buttons-->
+          <div class="content-head">Solid Buttons</div>
+
+          <div class="content-subtitle">
+            Contained buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions
+            that are primary to your app.
+          </div>
+
+          <div class="example-div">
+            <div class="button-container">
+              <button class="btn btn-primary">Primary</button>
+              <button class="btn btn-error">Error</button>
+              <button class="btn btn-warning">Warning</button>
+              <button class="btn btn-success">Success</button>
+            </div>
+          </div>
+
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-error%2522%253EError%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-warning%2522%253EWarning%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-success%2522%253ESuccess%253C%252Fbutton%253E"
+              style="width: 555px; height: 261px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- Ghost Button -->
+          <div class="content-head">Ghost Buttons</div>
+
+          <div class="content-subtitle">Hollow buttons with cool effect.</div>
+
+          <div class="example-div">
+            <div class="button-container">
+              <button class="btn ghost-primary">Primary</button>
+              <button class="btn ghost-error">Error</button>
+              <button class="btn ghost-warning">Warning</button>
+              <button class="btn ghost-success">Success</button>
+            </div>
+          </div>
+
+          <div class="example-code">
+            <iframe
+              class="example-code"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252Ficons%252Fmail.svg%2522%2520alt%253D%2522avatar-2%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520away%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252Ficons%252Fcards.svg%2522%2520alt%253D%2522avatar-2%2522%2520%252F%253E%250A%2520%253Cdiv%2520class%253D%2522number%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 774px; height: 354px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- LINK BUTTON -->
+          <div class="content-head">LINK Button</div>
+
+          <div class="content-subtitle">Add .btn class to any links.</div>
+
+          <div class="example-div">
+            <div class="button-container">
+              <button class="btn">LINK</button>
+            </div>
+          </div>
+
+          <div class="example-code">
+            <iframe
+              class="example-code"
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252Ficons%252Fmail.svg%2522%2520alt%253D%2522avatar-2%2522%2520%252F%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522number%2520away%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%253Cimg%2520class%253D%2522avatar%2522%2520src%253D%2522..%252F..%252Fassets%252Ficons%252Fcards.svg%2522%2520alt%253D%2522avatar-2%2522%2520%252F%253E%250A%2520%253Cdiv%2520class%253D%2522number%2522%253E5%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="width: 774px; height: 354px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="divider"></div>
+
+          <!-- Icon Button -->
+          <div class="content-head">Ghost Buttons</div>
+
+          <div class="content-subtitle">Icon Badge is used to represent quick info like notifications etc.</div>
+
+          <div class="example-div">
+            <div class="button-container">
+              <button class="btn btn-icon"><i class="fas fa-cog"></i>Settings</button>
+              <button class="btn btn-icon btn-error"><i class="fas fa-trash-alt"></i>Delete</button>
+            </div>
+          </div>
+
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-cog%2522%253E%253C%252Fi%253ESettings%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-icon%2520btn-error%2522%253E%253Ci%2520class%253D%2522fas%2520fa-trash-alt%2522%253E%253C%252Fi%253EDelete%253C%252Fbutton%253E"
+              style="width: 883px; height: 223px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <div class="divider"></div>
+
+          <footer>
+            <div class="prev-comp">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--grommet-icons"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path fill="none" stroke="currentColor" stroke-width="2" d="M15 6l-6 6l6 6"></path>
+              </svg>
+              <a href="../badge/badge.component.html">Badge</a>
+            </div>
+            <div class="next-comp">
+              <a href="../card/card.component.html">Card</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                role="img"
+                class="iconify iconify--ic"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+              >
+                <path d="M10 6L8.59 7.41L13.17 12l-4.58 4.59L10 18l6-6z" fill="currentColor"></path>
+              </svg>
+            </div>
+          </footer>
+        </div>
+      </div>
     </div>
 
-    <!-- GHOST BUTTON -->
-    <div class="button-container">
-      <button class="btn ghost-primary">Primary</button>
-      <button class="btn ghost-error">Error</button>
-      <button class="btn ghost-warning">Warning</button>
-      <button class="btn ghost-success">Success</button>
-    </div>
-
-    <!-- ICON BUTTON -->
-    <div class="button-container">
-      <button class="btn btn-icon"><i class="fas fa-cog"></i>Settings</button>
-      <button class="btn btn-icon btn-error"><i class="fas fa-trash-alt"></i>Delete</button>
-    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
   </body>
 </html>
