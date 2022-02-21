@@ -1,0 +1,27 @@
+.list-item {
+  padding: 1.25rem 0.75rem;
+
+  cursor: pointer;
+  width: 100%;
+}
+.list-item:not(last-child) {
+  border-bottom: 1px solid gray;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  background: var(--primary-light);
+  color: var(--neutral-white);
+}
+
+.list,
+.stacked-list {
+  border: 1px solid gray;
+  width: 60rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: var(--neutral-white);
+}
