@@ -28,3 +28,13 @@ Safient is the combination of 2 words: Safe and Convenient as we believe in prov
 - [ ] Modals
 - [ ] Snackbar
 - [ ] More Utils
+
+### Getting started
+
+- Just Copy paste the CDN link in head tag. you are good to go. 
+
+```
+https://safientui.netlify.app/index.css
+```
+
+use the predefined class names, styles will be applied automatically. refer Docs for more information.
