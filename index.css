@@ -10,6 +10,7 @@
 @import url('./src/components/avatar/avatar.styles.css');
 @import url('./src/components/badge/badge.component.css');
 @import url('./src/components/lists/lists.component.css');
+@import url('./src/components/rating/rating.component.css');
 
 /* Entry point */
 
