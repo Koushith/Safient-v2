@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../src/styles/navbar.css" />
     <link rel="stylesheet" href="../src/styles/sidebar.css" />
-    <link rel="stylesheet" href="../../../docs/getting-started.css" />
     <link rel="stylesheet" href="./getting-started.css" />
+    <link rel="stylesheet" href="./colors.page.css" />
     <link rel="stylesheet" href="../../../index.css" />
     <link
       rel="stylesheet"
@@ -15,7 +15,7 @@
       integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
       crossorigin="anonymous"
     />
-    <title>Safient : Getting Started</title>
+    <title>Safient : Colors</title>
   </head>
   <body>
     <div class="container">
@@ -34,14 +34,14 @@
           <!-- Get Started List Start -->
           <div>
             <div class="list-topic">
-              <a href="#"> Get Started </a>
+              <a href="./getting-started.html"> Get Started </a>
             </div>
             <ul class="list-subtopic">
               <li>
-                <a class="active" href="#"> Introduction </a>
+                <a href="./getting-started.html"> Introduction </a>
               </li>
               <li>
-                <a href="./colors.page.html"> Colors </a>
+                <a class="active" href="#"> Colors </a>
               </li>
               <li>
                 <a href="../../../docs/typography.page.html"> Typography </a>
@@ -84,30 +84,48 @@
         </div>
 
         <div class="doc-content">
-          <div class="content-title">Introduction to Safient</div>
+          <div class="content-title">Colors</div>
           <div class="content-subtitle">About SafientUI, and getting set up with the package locally.</div>
 
           <div class="divider"></div>
 
-          <!-- BADGE ON AVATARS -->
-          <div class="content-head">Installation</div>
+          <!-- DEFAULT PALETTE -->
+          <div class="content-head">Default Palette</div>
 
-          <div class="content-subtitle">
-            Safient can be installed by either NPM or Yarn or through CDN. copy this and paste it on your html file. you
-            are good to go.
+          <div class="content-subtitle intro">
+            Below is the color palette, used by Sparrow, listed with the hex-codes.
           </div>
 
-          <div class="example-code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28122%2C122%2C255%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fsafientui.netlify.app%252Findex.css"
-              style="width: 479px; height: 205px; border: 0; transform: scale(1); overflow: hidden"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
+          <div class="example-div1">
+            <div class="palette">
+              <div class="default">
+                Default
+                <span>#172B4D</span>
+              </div>
+              <div class="primary">
+                Primary
+                <span>#6366F1</span>
+              </div>
+              <div class="secondary">
+                Secondary
+                <span>#F3F4F6</span>
+              </div>
+              <div class="error">
+                Danger
+                <span>#F44336</span>
+              </div>
+              <div class="success">
+                Success
+                <span>#4CAF50</span>
+              </div>
+              <div class="warning">
+                Warning
+                <span>#FF9800</span>
+              </div>
+            </div>
           </div>
 
           <div class="divider"></div>
-
           <div class="divider"></div>
 
           <footer>
