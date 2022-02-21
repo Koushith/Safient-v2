@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../src/styles/navbar.css" />
     <link rel="stylesheet" href="../src/styles/sidebar.css" />
     <link rel="stylesheet" href="../../../docs/getting-started.css" />
-    <link rel="stylesheet" href="./getting-started.css" />
+    <link rel="stylesheet" href="./typography.page.css" />
     <link rel="stylesheet" href="../../../index.css" />
     <link
       rel="stylesheet"
@@ -15,13 +15,13 @@
       integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
       crossorigin="anonymous"
     />
-    <title>Safient : Getting Started</title>
+    <title>Safient : Typography</title>
   </head>
   <body>
     <div class="container">
       <nav>
         <div class="left-nav">
-          <a href="../../index.html">Safient</a>
+          <a href="../index.html">Safient</a>
         </div>
         <ul class="right-nav">
           <li><a href="./getting-started.html">Docs</a></li>
@@ -38,13 +38,13 @@
             </div>
             <ul class="list-subtopic">
               <li>
-                <a class="active" href="#"> Introduction </a>
+                <a href="#"> Introduction </a>
               </li>
               <li>
                 <a href="./colors.page.html"> Colors </a>
               </li>
               <li>
-                <a href="../../../docs/typography.page.html"> Typography </a>
+                <a class="active" href="../../../docs/typography.page.html"> Typography </a>
               </li>
             </ul>
           </div>
@@ -84,31 +84,37 @@
         </div>
 
         <div class="doc-content">
-          <div class="content-title">Introduction to Safient</div>
-          <div class="content-subtitle">About SafientUI, and getting set up with the package locally.</div>
+          <div class="content-title">Typography</div>
+          <div class="content-subtitle">Utilities for controlling the font size of an element.</div>
 
           <div class="divider"></div>
 
           <!-- BADGE ON AVATARS -->
-          <div class="content-head">Installation</div>
+          <div class="content-head">How to Use</div>
 
-          <div class="content-subtitle">
-            Safient can be installed by either NPM or Yarn or through CDN. copy this and paste it on your html file. you
-            are good to go.
-          </div>
-
-          <div class="example-code">
-            <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%28122%2C122%2C255%2C1%29&t=material&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=https%253A%252F%252Fsafientui.netlify.app%252Findex.css"
-              style="width: 479px; height: 205px; border: 0; transform: scale(1); overflow: hidden"
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
-          </div>
+          <div class="content-subtitle">Control the font size of an element using the text-{size} utilities.</div>
 
           <div class="divider"></div>
 
-          <div class="divider"></div>
+          <div class="example-code intro-code">
+            <pre>
+                <code class="html text-medium">
+                  text-xs	font-size: 0.75rem;
+                  line-height: 1rem;
+                  text-sm	font-size: 0.875rem;
+                  line-height: 1.25rem;
+                  text-base	font-size: 1rem;
+                  line-height: 1.5rem;
+                  text-lg	font-size: 1.125rem;
+                  line-height: 1.75rem;
+                  text-xl	font-size: 1.25rem;
+                  line-height: 1.75rem;
+                  text-2xl	font-size: 1.5rem;
+                  line-height: 2rem;
+
+                </code>
+            </pre>
+          </div>
 
           <footer>
             <div class="prev-comp">
