@@ -1,0 +1,9 @@
+.star,
+i {
+  font-size: 2em;
+  color: var(--primary-main);
+}
+
+.rating {
+  font-size: 2rem;
+}
