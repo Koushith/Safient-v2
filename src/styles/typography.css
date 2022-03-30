@@ -1,43 +1,43 @@
 /* -----FONT SIZES------ */
-
+/* Scales based on TailwindCSS */
 /*
-xs - 10px
-sm - 14px- 20px
-medium- 16px- 24px
-large- 18px, 28px
-xl- 20px- 28px
-2xl- 24px- line-32px
+xs - 10+2px
+sm - 14+2px
+medium- 16+2px
+large- 18+2px
+xl- 20+2px
+2xl- 22+2px
 */
 
 .text-xs {
-  font-size: 1rem;
-  line-height: 1.4rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
   letter-spacing: 0.025em;
 }
 
 .text-sm {
-  font-size: 1.4rem;
-  line-height: 1rem;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
 }
 
 .text-medium {
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-}
-
-.text-large {
   font-size: 1.8rem;
   line-height: 2.8rem;
 }
 
-.text-xl {
+.text-large {
   font-size: 2rem;
-  line-height: 2.8rem;
+  line-height: 3rem;
+}
+
+.text-xl {
+  font-size: 2.2rem;
+  line-height: 2.4rem;
 }
 
 .text-2xl {
   font-size: 2.4rem;
-  line-height: 3.2rem;
+  line-height: 3.6rem;
 }
 
 /* ------TEXT COLOR-------- */

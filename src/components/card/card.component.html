@@ -86,7 +86,7 @@
                 <a href="../rating/rating.component.html"> Rating </a>
               </li>
               <li>
-                <a href="../../../docs/typography.page.html"> Typography </a>
+                <a href="../text/text.component.html"> Text </a>
               </li>
             </ul>
           </div>
@@ -210,7 +210,7 @@
                 />
               </div>
               <div class="card-badge">NEW</div>
-              <button class="ico">
+              <button class="wishlist">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -229,13 +229,15 @@
                   </g>
                 </svg>
               </button>
-              <h2 class="card-title">Mi Band</h2>
-              <div class="card-text">Smartwatches 2nd Gen</div>
-              <div class="card-price">
-                <span class="price-now"> Rs.490 </span>
-                <span class="discount"> (62% OFF) </span>
+              <div class="action-container">
+                <h2 class="card-title">Mi Band</h2>
+                <div class="card-text">Smartwatches 2nd Gen</div>
+                <div class="card-price">
+                  <span class="price-now"> Rs.490 </span>
+                  <span class="discount"> (62% OFF) </span>
+                </div>
+                <button class="btn btn-primary">ADD TO CART</button>
               </div>
-              <button class="btn btn-primary">ADD TO CART</button>
             </div>
           </div>
           <div class="example-code">
@@ -246,6 +248,80 @@
             >
             </iframe>
           </div>
+
+          <div class="divider"></div>
+          <!-- Cards with Dismiss -->
+          <div class="content-head">Cards with Dismiss</div>
+
+          <div class="content-subtitle">Cards with dismiss button can be closed by clicking on the X button</div>
+
+          <div class="example-div">
+            <div class="card ecomm">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=588&q=80"
+                  alt="card-pic"
+                />
+              </div>
+              <div class="close">x</div>
+              <div class="action-container">
+                <h2 class="card-title">Mi Band</h2>
+                <div class="card-text">Smartwatches 2nd Gen</div>
+                <div class="card-price">
+                  <span class="price-now"> Rs.490 </span>
+                  <span class="discount"> (62% OFF) </span>
+                </div>
+                <button class="btn btn-primary">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520ecomm%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1575311373937-040b8e1fd5b6%253Fixlib%253Drb%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-pic%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close%2522%253Ex%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522action-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EMi%2520Band%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ESmartwatches%25202nd%2520Gen%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-now%2522%253E%2520Rs.490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="width: 867px; height: 485px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+
+          <!--  -->
+
+          <!-- Card with overlay -->
+
+          <div class="content-head">Cards with Overlay</div>
+
+          <div class="content-subtitle">Cards with dismiss button can be closed by clicking on the X button</div>
+
+          <div class="example-div">
+            <div class="card ecomm ecom-overlay">
+              <div class="product-image">
+                <img
+                  src="https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=588&q=80"
+                  alt="card-pic"
+                />
+              </div>
+              <div class="close">x</div>
+              <div class="action-container">
+                <h2 class="card-title">Mi Band</h2>
+                <div class="card-text">Smartwatches 2nd Gen</div>
+                <div class="card-price">
+                  <span class="price-now"> Rs.490 </span>
+                  <span class="discount"> (62% OFF) </span>
+                </div>
+                <span class="overlay-text">Out of Stock</span>
+                <button class="btn btn-primary">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+          <div class="example-code">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=material&wt=none&l=css&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520ecomm-overlay%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522product-image%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1575311373937-040b8e1fd5b6%253Fixlib%253Drb%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522card-pic%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522close%2522%253Ex%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522action-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-title%2522%253EMi%2520Band%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253ESmartwatches%25202nd%2520Gen%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522price-now%2522%253E%2520Rs.490%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522discount%2522%253E%2520%2862%2525%2520OFF%29%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EADD%2520TO%2520CART%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="width: 867px; height: 485px; border: 0; transform: scale(1); overflow: hidden"
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </div>
+          <!-- ------ -->
           <footer>
             <div class="prev-comp">
               <svg

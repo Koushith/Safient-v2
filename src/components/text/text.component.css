@@ -1,0 +1,9 @@
+.heading-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+code {
+  font-size: 2rem;
+}
