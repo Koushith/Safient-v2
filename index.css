@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('./src/styles/palette.css');
 @import url('./src/styles/spacing.css');
 @import url('./src/styles/typography.css');
@@ -11,6 +11,7 @@
 @import url('./src/components/badge/badge.component.css');
 @import url('./src/components/lists/lists.component.css');
 @import url('./src/components/rating/rating.component.css');
+@import url('./src/components/text/text.component.css');
 
 /* Entry point */
 
@@ -104,7 +105,7 @@ h6 {
 
 .dark {
   background-color: black;
-  color: white;
+  color: var(--neutral-white);
 }
 
 .centered {
@@ -132,12 +133,13 @@ h6 {
   text-decoration: none;
 }
 .outlined {
-  border: 1px solid white;
+  border: 1px solid var(--neutral-white);
   background-color: transparent;
+  color: var(--neutral-white);
 }
 .outlined:hover {
   color: black;
-  background-color: white;
+  background-color: var(--neutral-white);
 }
 
 .text-white {

@@ -14,9 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--primary-dark);
-  color: var(--neutral-white);
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
   min-width: 100px;
   text-align: center;
@@ -33,13 +31,16 @@
 
 .btn-primary {
   background: var(--primary-dark);
+  color: var(--neutral-white);
 }
 .btn-primary:hover {
   background: var(--primary-light);
+  color: var(--neutral-white);
 }
 
 .btn-error {
   background: var(--error-main);
+  color: var(--neutral-white);
 }
 .btn-error:hover {
   background: var(--error-light);
@@ -47,13 +48,16 @@
 
 .btn-warning {
   background: var(--warning-main);
+  color: var(--neutral-white);
 }
 .btn-warning:hover {
   background: var(--warning-light);
+  color: var(--neutral-white);
 }
 
 .btn-success {
   background: var(--success-main);
+  color: var(--neutral-white);
 }
 .btn-success:hover {
   background: var(--success-light);
@@ -64,54 +68,86 @@
 /* ---------GHOST BUTTON------------ */
 
 .ghost-primary {
-  color: var(--primary-dark) !important;
+  color: var(--primary-dark);
   background-color: var(--neutral-white);
-  border: 1px solid var(--primary-dark) !important;
+  border: 1px solid var(--primary-dark);
 }
 .ghost-primary:hover {
   background-color: var(--primary-dark);
-  color: var(--neutral-white) !important;
+  color: var(--neutral-white);
 }
 
 .ghost-error {
-  color: var(--error-main) !important;
+  color: var(--error-main);
   background-color: var(--neutral-white);
-  border: 1px solid var(--error-main) !important;
+  border: 1px solid var(--error-main);
 }
 .ghost-error:hover {
   background-color: var(--error-main);
-  color: var(--neutral-white) !important;
+  color: var(--neutral-white);
 }
 
 .ghost-warning {
-  color: var(--warning-main) !important;
+  color: var(--warning-main);
   background-color: var(--neutral-white);
-  border: 1px solid var(--warning-main) !important;
+  border: 1px solid var(--warning-main);
 }
 .ghost-warning:hover {
-  background-color: var(--warning-main) !important;
+  background-color: var(--warning-main);
   color: var(--neutral-white);
 }
 
 .ghost-success {
-  color: var(--success-main) !important;
+  color: var(--success-main);
   background-color: var(--neutral-white);
-  border: 1px solid var(--success-main) !important;
+  border: 1px solid var(--success-main);
 }
 .ghost-success:hover {
   background-color: var(--success-main);
-  color: var(--neutral-white) !important;
+  color: var(--neutral-white);
 }
 
 /* ----------END OF GHOST BUTTON-------- */
 
 /* -------- ICON BUTTON -------- */
 
+.btn-icon {
+  background-color: var(--primary-main);
+  color: var(--neutral-white);
+}
+.btn-icon:hover {
+  background: var(--primary-light);
+  color: var(--neutral-white);
+}
+
 .btn i {
   font-size: 2.6rem;
   margin-right: 1.2rem;
   display: flex;
   align-items: center;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* --------END OF ICON BUTTON -------- */
+
+/* ---------FLOATING ACTION BUTTON -------- */
+
+.btn-float {
+  background-color: var(--primary-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  border: none;
+}
+.btn-float i {
+  font-size: 2.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--neutral-white);
+  cursor: pointer;
+}
