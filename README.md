@@ -20,14 +20,10 @@ Safient is the combination of 2 words: Safe and Convenient as we believe in prov
 - Input
 - Typography
 - Spacing Utils
-
-
-### Coming Soon
-
-- [ ] Toasts
-- [ ] Modals
-- [ ] Snackbar
-- [ ] More Utils
+- List
+- Navigation
+- Rating
+- Text
 
 ### Getting started
 
