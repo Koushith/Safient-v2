@@ -12,6 +12,7 @@
 @import url('./src/components/lists/lists.component.css');
 @import url('./src/components/rating/rating.component.css');
 @import url('./src/components/text/text.component.css');
+@import url('./src/components/navigation/navigation.component.css');
 
 /* Entry point */
 
