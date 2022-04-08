@@ -2,7 +2,7 @@
 
 UI Component Library
 
-Safient is the combination of 2 words: Safe and Convenient as we believe in providing the safest and convenient way to protect and inherit your crypto assets
+Safient is the combination of 2 words: Safe and Convenient.
 
 ![image](https://user-images.githubusercontent.com/30016242/154817079-9a94e2ef-ac63-4a51-ac49-ea3cfcbcfed2.png)
 
